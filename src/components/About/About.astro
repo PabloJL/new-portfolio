@@ -1,53 +1,6 @@
 ---
 import Timeline from "./Timeline.astro";
-
-// const TAB_DATA = [
-//   {
-//     title: "Skills",
-//     id: "Skills",
-//     content: (
-//       <div class="flex gap-10">
-//         <ul class=" list-disc pl-2">
-//           <li>React</li>
-//           <li>JavaScript</li>
-//           <li>Node.js</li>
-//         </ul>
-//         <ul class=" list-disc pl-2">
-//           <li>SQL Server</li>
-//           <li>Java</li>
-//           <li>C#</li>
-//         </ul>
-//         <ul class=" list-disc pl-2">
-//           <li>C++</li>
-//           <li>Servicenow</li>
-//           <li>.NET</li>
-//         </ul>
-//       </div>
-//     ),
-//   },
-//   {
-//     title: "Education",
-//     id: "Education",
-//     content: (
-//       <ul class="  pl-2">
-//         <li class=" list-disc">Bachelors in Computer Science at </li>
-//         <li>Instituto Tecnologico de Saltillo</li>
-//         <li>2017-2022</li>
-//       </ul>
-//     ),
-//   },
-//   {
-//     title: "Experience",
-//     id: "Experience",
-//     content: (
-//       <ul class=" list-disc pl-2">
-//         <li>Lennox International</li>
-//         <li>Hexaware Technologies</li>
-//         <li>Eviden</li>
-//       </ul>
-//     ),
-//   },
-// ];
+import Skills from "./Skills.astro";
 ---
 
 <section class="text-white" id="about">
@@ -65,28 +18,11 @@ import Timeline from "./Timeline.astro";
         my favorite sports teams, with my lovely girlfriend or at Top Golf with
         my friends. Let&apos;s connect and share our passions!
       </p>
-      <div class="flex mt-8 gap-3">
-        <!-- <TabButton
-              selectTab={() => handleTabChange("Skills")}
-              active={tab === "Skills"}
-            >
-              Skills
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("Education")}
-              active={tab === "Education"}
-            >
-              Education
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("Experience")}
-              active={tab === "Experience"}
-            >
-              Experience
-            </TabButton> -->
+      <div class="flex mt-4">
+        <h1 class="text-2xl font-bold">Skills</h1>
       </div>
-      <div class="mt-8">
-        <!-- {TAB_DATA.find((t) => t.id === tab).content} -->
+      <div class="mt-8 mb-8 md:mb-0">
+        <Skills />
       </div>
     </div>
     <div class="mt-4 md:mt-0 text-left flex flex-col h-full">
