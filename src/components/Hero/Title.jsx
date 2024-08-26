@@ -38,13 +38,13 @@ export default function Title() {
         </p>
         <div>
           <a
-            href="/#contact"
+            href="#contact"
             className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-violet-600 to-indigo-600 hover:bg-slate-200 text-white"
           >
             Hire Me
           </a>
           <a
-            href="/documents/CV.pdf"
+            href="/Documents/CV.pdf"
             download="CV"
             target="_blank"
             rel="noreferrer"
