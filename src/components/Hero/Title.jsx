@@ -10,14 +10,13 @@ export default function Title() {
         transition={{ duration: 0.5 }}
         className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
       >
-        <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold ">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-indigo-600 hover:bg-slate-200 ">
+        <h1 className="text-white mb-4 text-3xl lg:text-7xl lg:leading-normal font-extrabold h-[100px] md:h-fit">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-indigo-600 hover:bg-slate-200">
             Hello, I&apos;m
           </span>
           <br />
           <TypeAnimation
             sequence={[
-              // Same substring at the start will only be typed out once, initially
               "Pablo",
               1000,
               "Web Developer",
@@ -32,14 +31,15 @@ export default function Title() {
             repeat={Infinity}
           />
         </h1>
+
         <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-8">
           Welcome to my portfolio! Explore my journey through code and
           creativity.
         </p>
-        <div>
+        <div className=" items-center">
           <a
             href="#contact"
-            className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-violet-600 to-indigo-600 hover:bg-slate-200 text-white"
+            className="px-3 py-2 md:px-6 md:py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-violet-600 to-indigo-600 hover:bg-slate-200 text-white"
           >
             Hire Me
           </a>
@@ -48,7 +48,7 @@ export default function Title() {
             download="CV"
             target="_blank"
             rel="noreferrer"
-            className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border border-white mt-3"
+            className="px-3 py-2 md:px-6 md:py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border border-white mt-3"
           >
             Download CV
           </a>
