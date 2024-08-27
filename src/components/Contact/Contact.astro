@@ -1,0 +1,46 @@
+---
+import GithubIcon from "@/components/Icons/Github.astro";
+import LinkedInIcon from "@/components/Icons/LinkedIn.astro";
+import InstagramIcon from "@/components/Icons/Instagram.astro";
+import Email from "./Email.jsx";
+---
+
+<section
+  id="contact"
+  class="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
+>
+  <div class="z-10">
+    <h5 class="text-xl font-bold text-white my-2">Let&apos;s connect</h5>
+    <p class="text-[#ADB7BE] mb-4 max-w-md">
+      Whether you&apos;re interested in exploring my latest coding projects,
+      delving into my professional journey, or catching a glimpse of my creative
+      side, I invite you to connect with me across these platforms. I&apos;m
+      excited to engage with fellow enthusiasts, collaborators, and curious
+      minds alike.
+    </p>
+    <div class="socials flex gap-2 sm:mb-4 text-white">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/PabloJL"
+      >
+        <GithubIcon />
+      </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.linkedin.com/in/JPLJ1802"
+      >
+        <LinkedInIcon />
+      </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.instagram.com/jp.jsx/"
+      >
+        <InstagramIcon />
+      </a>
+    </div>
+  </div>
+  <Email client:load />
+</section>
