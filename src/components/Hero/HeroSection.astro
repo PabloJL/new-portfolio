@@ -1,7 +1,16 @@
 ---
 import Title from "./Title.jsx";
+import { Image } from "astro:assets";
+import me from "@/assets/me.webp";
 ---
 
 <section class="lg:py-16">
-  <Title client:load />
+  <Title client:load>
+    <Image
+      src={me}
+      alt="Image-of-me"
+      slot="image"
+      class="object-cover w-full h-full"
+    />
+  </Title>
 </section>

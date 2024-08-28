@@ -1,7 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
-export default function Title() {
+export default function Title(props) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-12">
       <motion.div
@@ -61,11 +61,7 @@ export default function Title() {
         className="col-span-4 place-content-center mt-10 lg:mt-0 mx-auto lg:place-content-start text-center relative inline-block"
       >
         <div className="mx-auto bg-gradient-to-b from-indigo-600 rounded-full w-[250px] h-[250px] lg:w-[400px] lg:h-[390px]  relative overflow-hidden  ">
-          <img
-            src="/Images/me.png"
-            alt="me"
-            className="object-cover w-full h-full"
-          />
+          {props.image}
         </div>
       </motion.div>
     </div>
