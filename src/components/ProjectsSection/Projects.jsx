@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import ProjectCard from "../ProjectCard";
+import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
@@ -9,7 +9,7 @@ const projectsData = [
     title: "My Portolio",
     description:
       "My portfolio showcasing all my projects, you are currently here!!",
-    image: "/images/projects/portfolio.png",
+    image: "/Images/projects/portfolio.png",
     tag: ["All", "Web"],
     git: "https://github.com/PabloJL/portfolio",
     preview: "/",
@@ -19,7 +19,7 @@ const projectsData = [
     title: "To Do App",
     description:
       "This To do app helps you keep track of your daily tasks so you don´t forget anything",
-    image: "/images/projects/todo.png",
+    image: "/Images/projects/todo.png",
     tag: ["All", "Web"],
     git: "https://github.com/PabloJL/TODO-App",
     preview: "https://pablojl.github.io/TODO-App/",
@@ -29,7 +29,7 @@ const projectsData = [
     title: "Shopee",
     description:
       "Shopee is an Ecommerce app, you can find any kind of product here!",
-    image: "/images/projects/shopee.png",
+    image: "/Images/projects/shopee.png",
     tag: ["All", "Web"],
     git: "https://github.com/PabloJL/Shope",
     preview: "https://timely-cuchufli-2a39da.netlify.app/",
@@ -39,7 +39,7 @@ const projectsData = [
     id: 4,
     title: "Post It",
     description: "Share your thoughts, comment and like other peoples posts😁",
-    image: "/images/projects/post-it.png",
+    image: "/Images/projects/post-it.png",
     tag: ["All", "Web"],
     git: "https://github.com/PabloJL/post-it",
     preview: "https://post-it-olive.vercel.app/",

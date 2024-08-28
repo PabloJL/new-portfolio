@@ -5,6 +5,7 @@ import HeroSection from "@/components/Hero/HeroSection.astro";
 import About from "@/components/About/About.astro";
 import Contact from "@/components/Contact/Contact.astro";
 import Footer from "@/components/Footer/Footer.astro";
+import Projects from "@/components/ProjectsSection/Projects.jsx";
 ---
 
 <Layout title="Jπ - Portfolio">
@@ -13,6 +14,7 @@ import Footer from "@/components/Footer/Footer.astro";
     <div class="container mx-auto px-12 py-4 mt-24">
       <HeroSection />
       <About />
+      <Projects client:load />
       <Contact />
       <Footer />
     </div>
