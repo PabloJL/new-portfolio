@@ -32,27 +32,8 @@ export default function Title(props) {
           />
         </h1>
 
-        <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-8">
-          Welcome to my portfolio! Explore my journey through code and
-          creativity.
-        </p>
-        <div className=" items-center">
-          <a
-            href="#contact"
-            className="px-3 py-2 md:px-6 md:py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-violet-600 to-indigo-600 hover:bg-slate-200 text-white"
-          >
-            Hire Me
-          </a>
-          <a
-            href="/Documents/CV.pdf"
-            download="CV"
-            target="_blank"
-            rel="noreferrer"
-            className="px-3 py-2 md:px-6 md:py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border border-white mt-3"
-          >
-            Download CV
-          </a>
-        </div>
+        {props.introMessage}
+        {props.buttons}
       </motion.div>
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
