@@ -6,13 +6,13 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "My Portolio",
+    title: "100 JS Projects",
     description:
-      "My portfolio showcasing all my projects, you are currently here!!",
-    image: "/Images/projects/portfolio.png",
+      "This project has small js projects like a local ChatGPT, paint, excel all in vanilla. Check it out",
+    image: "/Images/projects/js-100-projects.png",
     tag: ["All", "Web"],
-    git: "https://github.com/PabloJL/portfolio",
-    preview: "/",
+    git: "https://github.com/PabloJL/js-projects",
+    preview: "https://js-projects-liart.vercel.app/",
   },
   {
     id: 2,
