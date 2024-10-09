@@ -53,15 +53,15 @@ const projectsData = [
     git: "https://github.com/PabloJL/js-projects/tree/master/public/projects/04-chatgpt-local",
     preview: "https://js-projects-liart.vercel.app/04-chatgpt-local",
   },
-  // {
-  //   id: 6,
-  //   title: "Full-Stack Roadmap",
-  //   description: "Project 6 Description",
-  //   image: "/images/projects/6.png",
-  //   tag: ["All", "Web"],
-  //   git: "/",
-  //   preview: "/",
-  // },
+  {
+    id: 6,
+    title: "Typing Game",
+    description: "Try this game to test your typing skills.",
+    image: "/Images/projects/03.webp",
+    tag: ["All", "Web"],
+    git: "https://github.com/PabloJL/js-projects/tree/master/public/projects/03-typing-game",
+    preview: "https://js-projects-liart.vercel.app/03-typing-game",
+  },
 ];
 
 function Projects() {
