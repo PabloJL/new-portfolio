@@ -6,35 +6,34 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "100 JS Projects",
+    title: "Local ChatGPT",
     description:
-      "This project has small js projects like a local ChatGPT, paint, excel all in vanilla. Check it out",
-    image: "/Images/projects/js-100-projects.png",
+      "This is a local version of chatGPT. Use this AI in local and free.",
+    image: "/Images/projects/04.webp",
     tag: ["All", "Web"],
-    git: "https://github.com/PabloJL/js-projects",
-    preview: "https://js-projects-liart.vercel.app/",
+    git: "https://github.com/PabloJL/js-projects/tree/master/public/projects/04-chatgpt-local",
+    preview: "https://js-projects-liart.vercel.app/04-chatgpt-local",
   },
   {
     id: 2,
-    title: "To Do App",
-    description:
-      "This To do app helps you keep track of your daily tasks so you don´t forget anything",
-    image: "/Images/projects/todo.png",
-    tag: ["All", "Web"],
-    git: "https://github.com/PabloJL/TODO-App",
-    preview: "https://pablojl.github.io/TODO-App/",
-  },
-  {
-    id: 3,
     title: "Shopee",
     description:
-      "Shopee is an Ecommerce app, you can find any kind of product here!",
+      "Shopee is a (dummy) Ecommerce app, you can find any kind of product here!",
     image: "/Images/projects/shopee.png",
     tag: ["All", "Web"],
     git: "https://github.com/PabloJL/Shope",
     preview: "https://timely-cuchufli-2a39da.netlify.app/",
   },
-
+  {
+    id: 3,
+    title: "Typing Game",
+    description:
+      "Challenge yourself with this exciting typing game designed to test and improve your typing skills.",
+    image: "/Images/projects/03.webp",
+    tag: ["All", "Web"],
+    git: "https://github.com/PabloJL/js-projects/tree/master/public/projects/03-typing-game",
+    preview: "https://js-projects-liart.vercel.app/03-typing-game",
+  },
   {
     id: 4,
     title: "Post It",
@@ -46,21 +45,23 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Local ChatGPT",
-    description: "This is a local version of chatGPT",
-    image: "/Images/projects/04.webp",
+    title: "100 JS Projects",
+    description:
+      "This project has small js projects like a local ChatGPT, paint, excel all in vanilla. Check it out",
+    image: "/Images/projects/js-100-projects.png",
     tag: ["All", "Web"],
-    git: "https://github.com/PabloJL/js-projects/tree/master/public/projects/04-chatgpt-local",
-    preview: "https://js-projects-liart.vercel.app/04-chatgpt-local",
+    git: "https://github.com/PabloJL/js-projects",
+    preview: "https://js-projects-liart.vercel.app/",
   },
   {
     id: 6,
-    title: "Typing Game",
-    description: "Try this game to test your typing skills.",
-    image: "/Images/projects/03.webp",
+    title: "To Do App",
+    description:
+      "This To do app helps you keep track of your daily tasks so you don´t forget anything",
+    image: "/Images/projects/todo.png",
     tag: ["All", "Web"],
-    git: "https://github.com/PabloJL/js-projects/tree/master/public/projects/03-typing-game",
-    preview: "https://js-projects-liart.vercel.app/03-typing-game",
+    git: "https://github.com/PabloJL/TODO-App",
+    preview: "https://pablojl.github.io/TODO-App/",
   },
 ];
 
